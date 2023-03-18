@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cantiner {
+    display: grid;
+    /* grid-gap: 1rem; */
+    grid-template-areas:
+        "navbari navbari navbari navbari navbari navbari"
+        "lefti lefti senteri senteri righti righti"
+        "lefti lefti senteri senteri righti righti"
+        "navlasti navlasti navlasti navlasti navlasti navlasti"
+    ;
+}
+
+#navbari {
+    grid-area: navbari;
+}
+
+#lefti {
+    grid-area: lefti;
+}
+
+#senteri {
+    grid-area: senteri;
+}
+
+#righti {
+    grid-area: righti;
+}
+
+#navlasti {
+    grid-area: navlasti;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    padding: 7px 60px;
+}
+
+.navbar a {
+    transition: all 1s;
+    color: rgb(0, 0, 0);
+    margin: 0px 82px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 4px 4px;
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin: 0px 60px;
+    border-radius: 13px;
+    padding: 6px 26px;
+}
+
+.navbar img {
+    width: 800px;
+    height: 170px;
+    margin-left: 49px;
+
+}
+
+.left {
+    height: 360px;
+    padding: 0px 0px;
+    background-image: url(./Photos/11.png);
+}
+
+.senter {
+    height: 360px;
+    padding: 0px 0px;
+    background-image: url(./Photos/11.png);
+}
+
+.right {
+    height: 360px;
+    padding: 0px 0px;
+    background-image: url(./Photos/11.png);
+}
+
+.img3 {
+    transition: all 1s;
+    padding-top: 72px;
+    padding-left: 68px;
+    height: 200px;
+    width: 200px;
+}
+.img3:hover{
+    transform: skew(20deg);
+}
+
+.navlast {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 70px;
+}
+
+.navlast a {
+    transition: all 1s;
+    color: rgb(0, 0, 0);
+    margin: 0px 80px;
+    border-radius: 12px;
+    padding: 4px 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.navlast a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: 0px 60px;
+    border-radius: 13px;
+    padding: 6px 26px;
+}
